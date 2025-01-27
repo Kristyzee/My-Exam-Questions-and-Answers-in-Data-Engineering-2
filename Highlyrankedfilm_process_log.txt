@@ -1,0 +1,15 @@
+2025-01-27 01:50:56,396:INFO:Fetching the webpage
+2025-01-27 01:50:59,736:INFO:Extracting tables from the webpage
+2025-01-27 01:50:59,813:INFO:Number of tables extracted: 3
+2025-01-27 01:50:59,814:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 01:50:59,814:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 01:50:59,815:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 01:50:59,815:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 01:50:59,816:INFO:Merging the two tables on the 'Number' column
+2025-01-27 01:50:59,824:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 01:50:59,824:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 01:50:59,829:INFO:Connecting to the PostgreSQL database
+2025-01-27 01:50:59,918:INFO:Defining the table schema
+2025-01-27 01:50:59,919:INFO:Creating the table in the database
+2025-01-27 01:51:00,005:INFO:Loading the dataframe into the database
+2025-01-27 01:51:00,158:INFO:Process completed successfully
