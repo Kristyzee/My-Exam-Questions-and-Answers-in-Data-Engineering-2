@@ -1,18 +1,18 @@
-Average Rank,Film,Year,Number,Genre
-1,The Godfather,1972,1,Sci-Fi
-2,Citizen Kane,1941,2,Crime
-3,Casablanca,1942,3,War
-4,"The Godfather, Part II",1974,4,Thriller
-5,Singin' in the Rain,1952,5,Action
-6,Psycho,1960,6,Comedy
-7,Rear Window,1954,7,Romance
-8,Apocalypse Now,1979,8,Drama
-9,2001: A Space Odyssey,1968,9,Adventure
-10,Seven Samurai,1954,10,Animated Fantasy
-11,Vertigo,1958,11,Mystery
-12,Sunset Blvd,1950,12,Musical
-13,Modern Times,1936,13,Noir
-14,Lawrence of Arabia,1962,14,Fantasy
-15,North by Northwest,1959,15,Western
-16,Star Wars,1977,16,Horror
-17,Parasite,2019,17,Dramedy (Comedy Drama)
+Average Rank,Film,Year,Genre
+1,The Godfather,1972,Sci-Fi
+2,Citizen Kane,1941,Crime
+3,Casablanca,1942,War
+4,"The Godfather, Part II",1974,Thriller
+5,Singin' in the Rain,1952,Action
+6,Psycho,1960,Comedy
+7,Rear Window,1954,Romance
+8,Apocalypse Now,1979,Drama
+9,2001: A Space Odyssey,1968,Adventure
+10,Seven Samurai,1954,Animated Fantasy
+11,Vertigo,1958,Mystery
+12,Sunset Blvd,1950,Musical
+13,Modern Times,1936,Noir
+14,Lawrence of Arabia,1962,Fantasy
+15,North by Northwest,1959,Western
+16,Star Wars,1977,Horror
+17,Parasite,2019,Dramedy (Comedy Drama)

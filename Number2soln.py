@@ -10,23 +10,27 @@ import logging
 # QUESTION2---
 # 2. using sqlalchemy:
 # write a function to extract information from two tables in the given URL and
-# perform transformations on the data such as converting columns where necessary and joining the two tables
+# perform transformations on the data such as converting columns where
+# necessary and joining the two tables
 # where 'Average rank'(on the first table) = 'Number'(on the second table)
 # load the resulting dataframe to a postgresql database using the table name.
-# From the first table, extract the first three columns. Extract the 'Genre' from the third table and add a column 'Number'
+# From the first table, extract the first three columns. Extract the 'Genre'
+# from the third table and add a column 'Number'
 # which should auto-increment.
 # Join the two tables where 'Average rank' = 'Number'
 # Save the resulting table in the database as well as on a '.csv' file
 # Only the first 17 rows from the two tables are required.
-# The URL to be used is 'https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films'
+# The URL to be used is
+# 'https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films'
 # Each stage of the process should be logged in a '.txt' file
-# *Note the this code is to be run in a virtual environment* 
+# *Note the this code is to be run in a virtual environment***
 
 
 # --------------------------------------------SOLUTION------------------------------------------------
 
 # Set up logging
-logging.basicConfig(filename='Highlyrankedfilm_process_log.txt', level=logging.INFO, 
+logging.basicConfig(filename='Highlyrankedfilm_process_log.txt',
+                    level=logging.INFO,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
 # URL to scrape
@@ -46,12 +50,14 @@ logging.info(f'Number of tables extracted: {len(tables)}')
 
 # Check if there are at least 3 tables
 if len(tables) < 3:
-    logging.error("Less than 3 tables found on the webpage. Exiting the process.")
+    logging.error("Less than 3 tables found on the webpage.Exiting the process")
     exit()
 
-# Extract the first 17 rows from the first table and focus only on the necessary columns
+# Extract the first 17 rows from the first table and focus only on the
+# necessary columns
 logging.info('Extracting relevant columns and first 17 rows from the first table')
-table1 = tables[0].iloc[:17, [0, 1, 2]].copy()  # Extracting 'Average Rank', 'Movie Title', and 'Year'
+# Extracting 'Average Rank', 'Movie Title', and 'Year'
+table1 = tables[0].iloc[:17, [0, 1, 2]].copy()
 logging.info(f"Table 1 (first 17 rows): {table1.shape[0]} rows, {table1.shape[1]} columns")
 
 # Extract the necessary columns from the second table (including 'Genre')
@@ -63,12 +69,17 @@ logging.info(f"Table 2 (first 17 rows): {table2.shape[0]} rows, {table2.shape[1]
 table1['Number'] = range(1, len(table1) + 1)
 table2['Number'] = range(1, len(table2) + 1)
 
-# Merge the two tables on 'Number' column to add the 'Genre'
+
+# Merge the two tables on the 'Number' column (inner join by default)
 logging.info("Merging the two tables on the 'Number' column")
-merged_df = pd.merge(table1, table2, on='Number')
+merged_df = pd.merge(table1, table2, on='Number', how='inner')
+
+# Drop the 'Number' column since you don't want it to appear
+# in the final result
+merged_df = merged_df.drop(columns=['Number'])
 
 # Print the merged dataframe's shape for debugging
-logging.info(f"Merged dataframe shape: {merged_df.shape[0]} rows, {merged_df.shape[1]} columns")
+logging.info(f"Merged dataframe shape: {merged_df.shape[0]} rows,{merged_df.shape[1]} columns")
 
 # Save the resulting dataframe to a CSV file
 logging.info('Saving the resulting dataframe to a CSV file')
@@ -77,7 +88,7 @@ merged_df.to_csv('merged_tables.csv', index=False)
 # Database connection
 logging.info('Connecting to the PostgreSQL database')
 postgres_user = 'postgres'
-postgres_password ='*******'  # my password isn't opensource....kindly input yours to make it run
+postgres_password ='Ezinne'  # my password isn't opensource....kindly input yours to make it run
 postgres_host = 'localhost'
 postgres_port = '5432'
 postgres_db = 'Films_db'

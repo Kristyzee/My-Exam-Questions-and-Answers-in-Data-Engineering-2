@@ -13,3 +13,367 @@
 2025-01-27 01:50:59,919:INFO:Creating the table in the database
 2025-01-27 01:51:00,005:INFO:Loading the dataframe into the database
 2025-01-27 01:51:00,158:INFO:Process completed successfully
+2025-01-27 11:58:25,185:INFO:Fetching the webpage
+2025-01-27 11:58:27,330:INFO:Extracting tables from the webpage
+2025-01-27 11:58:27,446:INFO:Number of tables extracted: 3
+2025-01-27 11:58:27,447:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 11:58:27,508:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 11:58:27,509:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 11:58:27,510:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 11:58:27,514:INFO:Merging the two tables on the 'Number' column
+2025-01-27 11:58:27,521:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 11:58:27,521:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 11:58:27,553:INFO:Connecting to the PostgreSQL database
+2025-01-27 11:58:27,811:INFO:Database does not exist, creating a new one
+2025-01-27 11:58:29,790:INFO:Defining the table schema
+2025-01-27 11:58:29,791:INFO:Creating the table in the database
+2025-01-27 11:58:30,145:INFO:Loading the dataframe into the database
+2025-01-27 11:58:30,471:INFO:Process completed successfully
+2025-01-27 12:30:15,533:INFO:Fetching the webpage
+2025-01-27 12:30:21,115:INFO:Extracting tables from the webpage
+2025-01-27 12:30:21,224:INFO:Number of tables extracted: 3
+2025-01-27 12:30:21,224:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:30:21,225:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:30:21,225:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:30:21,226:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:30:21,228:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:30:21,231:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:30:21,232:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:30:21,238:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:30:21,390:INFO:Defining the table schema
+2025-01-27 12:30:21,391:INFO:Creating the table in the database
+2025-01-27 12:30:21,531:INFO:Loading the dataframe into the database
+2025-01-27 12:30:21,800:INFO:Process completed successfully
+2025-01-27 12:30:26,925:INFO:Fetching the webpage
+2025-01-27 12:30:28,379:INFO:Extracting tables from the webpage
+2025-01-27 12:30:28,487:INFO:Number of tables extracted: 3
+2025-01-27 12:30:28,487:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:30:28,489:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:30:28,489:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:30:28,490:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:30:28,492:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:30:28,495:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:30:28,495:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:30:28,508:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:30:28,803:INFO:Defining the table schema
+2025-01-27 12:30:28,804:INFO:Creating the table in the database
+2025-01-27 12:30:28,955:INFO:Loading the dataframe into the database
+2025-01-27 12:30:29,278:INFO:Process completed successfully
+2025-01-27 12:32:40,022:INFO:Fetching the webpage
+2025-01-27 12:32:41,351:INFO:Extracting tables from the webpage
+2025-01-27 12:32:41,465:INFO:Number of tables extracted: 3
+2025-01-27 12:32:41,465:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:32:41,466:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:32:41,466:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:32:41,467:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:32:41,468:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:32:41,471:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:32:41,472:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:32:41,479:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:32:41,628:INFO:Defining the table schema
+2025-01-27 12:32:41,629:INFO:Creating the table in the database
+2025-01-27 12:32:41,731:INFO:Loading the dataframe into the database
+2025-01-27 12:32:41,933:INFO:Process completed successfully
+2025-01-27 12:35:00,791:INFO:Fetching the webpage
+2025-01-27 12:35:04,712:INFO:Extracting tables from the webpage
+2025-01-27 12:35:04,821:INFO:Number of tables extracted: 3
+2025-01-27 12:35:04,821:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:35:04,826:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:35:04,826:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:35:04,828:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:35:04,832:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:35:04,835:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:35:04,836:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:35:04,844:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:35:05,011:INFO:Defining the table schema
+2025-01-27 12:35:05,011:INFO:Creating the table in the database
+2025-01-27 12:35:05,125:INFO:Loading the dataframe into the database
+2025-01-27 12:35:05,344:INFO:Process completed successfully
+2025-01-27 12:35:11,015:INFO:Fetching the webpage
+2025-01-27 12:35:12,836:INFO:Extracting tables from the webpage
+2025-01-27 12:35:13,021:INFO:Number of tables extracted: 3
+2025-01-27 12:35:13,021:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:35:13,023:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:35:13,023:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:35:13,024:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:35:13,026:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:35:13,030:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:35:13,031:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:35:13,037:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:35:13,280:INFO:Defining the table schema
+2025-01-27 12:35:13,281:INFO:Creating the table in the database
+2025-01-27 12:35:13,432:INFO:Loading the dataframe into the database
+2025-01-27 12:35:13,748:INFO:Process completed successfully
+2025-01-27 12:35:18,958:INFO:Fetching the webpage
+2025-01-27 12:35:20,468:INFO:Extracting tables from the webpage
+2025-01-27 12:35:20,575:INFO:Number of tables extracted: 3
+2025-01-27 12:35:20,575:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:35:20,576:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:35:20,576:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:35:20,577:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:35:20,579:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:35:20,583:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:35:20,583:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:35:20,589:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:35:20,828:INFO:Database does not exist, creating a new one
+2025-01-27 12:35:22,127:INFO:Defining the table schema
+2025-01-27 12:35:22,128:INFO:Creating the table in the database
+2025-01-27 12:35:22,537:INFO:Loading the dataframe into the database
+2025-01-27 12:35:22,958:INFO:Process completed successfully
+2025-01-27 12:35:46,048:INFO:Fetching the webpage
+2025-01-27 12:35:48,497:INFO:Extracting tables from the webpage
+2025-01-27 12:35:48,615:INFO:Number of tables extracted: 3
+2025-01-27 12:35:48,615:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:35:48,616:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:35:48,616:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:35:48,617:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:35:48,619:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:35:48,621:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:35:48,622:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:35:48,630:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:35:48,879:INFO:Defining the table schema
+2025-01-27 12:35:48,880:INFO:Creating the table in the database
+2025-01-27 12:35:48,980:INFO:Loading the dataframe into the database
+2025-01-27 12:35:49,195:INFO:Process completed successfully
+2025-01-27 12:37:57,274:INFO:Fetching the webpage
+2025-01-27 12:37:59,444:INFO:Extracting tables from the webpage
+2025-01-27 12:37:59,607:INFO:Number of tables extracted: 3
+2025-01-27 12:37:59,607:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:37:59,608:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:37:59,608:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:37:59,609:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:37:59,611:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:37:59,614:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:37:59,614:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:37:59,622:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:37:59,738:INFO:Defining the table schema
+2025-01-27 12:37:59,739:INFO:Creating the table in the database
+2025-01-27 12:37:59,848:INFO:Loading the dataframe into the database
+2025-01-27 12:38:00,176:INFO:Process completed successfully
+2025-01-27 12:39:48,604:INFO:Fetching the webpage
+2025-01-27 12:39:50,051:INFO:Extracting tables from the webpage
+2025-01-27 12:39:50,163:INFO:Number of tables extracted: 3
+2025-01-27 12:39:50,164:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:39:50,165:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:39:50,165:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:39:50,166:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:39:50,168:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:39:50,171:INFO:Merged dataframe shape: 17 rows, 5 columns
+2025-01-27 12:39:50,171:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:39:50,181:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:39:50,289:INFO:Defining the table schema
+2025-01-27 12:39:50,290:INFO:Creating the table in the database
+2025-01-27 12:39:50,396:INFO:Loading the dataframe into the database
+2025-01-27 12:39:50,580:INFO:Process completed successfully
+2025-01-27 12:42:22,298:INFO:Fetching the webpage
+2025-01-27 12:42:25,764:INFO:Extracting tables from the webpage
+2025-01-27 12:42:25,866:INFO:Number of tables extracted: 3
+2025-01-27 12:42:25,866:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:42:25,867:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:42:25,867:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:42:25,868:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:42:25,871:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:42:25,874:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 12:42:25,875:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:42:25,880:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:42:26,089:INFO:Database does not exist, creating a new one
+2025-01-27 12:42:27,825:INFO:Defining the table schema
+2025-01-27 12:42:27,826:INFO:Creating the table in the database
+2025-01-27 12:42:28,006:INFO:Loading the dataframe into the database
+2025-01-27 12:42:28,175:INFO:Process completed successfully
+2025-01-27 12:48:29,294:INFO:Fetching the webpage
+2025-01-27 12:48:31,784:INFO:Extracting tables from the webpage
+2025-01-27 12:48:31,890:INFO:Number of tables extracted: 3
+2025-01-27 12:48:31,891:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 12:48:31,892:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 12:48:31,892:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 12:48:31,893:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 12:48:31,894:INFO:Merging the two tables on the 'Number' column
+2025-01-27 12:48:31,899:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 12:48:31,899:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 12:48:31,905:INFO:Connecting to the PostgreSQL database
+2025-01-27 12:48:32,139:INFO:Defining the table schema
+2025-01-27 12:48:32,140:INFO:Creating the table in the database
+2025-01-27 12:48:32,249:INFO:Loading the dataframe into the database
+2025-01-27 12:48:32,456:INFO:Process completed successfully
+2025-01-27 13:03:04,310:INFO:Fetching the webpage
+2025-01-27 13:03:06,426:INFO:Extracting tables from the webpage
+2025-01-27 13:03:35,495:INFO:Fetching the webpage
+2025-01-27 13:03:37,169:INFO:Extracting tables from the webpage
+2025-01-27 13:03:37,269:INFO:Number of tables extracted: 3
+2025-01-27 13:03:37,269:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:03:37,271:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:03:37,271:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:03:37,272:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:03:37,275:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:03:37,280:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:03:37,280:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:03:37,286:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:04:09,476:INFO:Fetching the webpage
+2025-01-27 13:04:10,940:INFO:Extracting tables from the webpage
+2025-01-27 13:04:11,050:INFO:Number of tables extracted: 3
+2025-01-27 13:04:11,050:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:04:11,052:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:04:11,052:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:04:11,053:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:04:11,056:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:04:11,059:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:04:11,059:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:04:11,064:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:04:11,224:INFO:Defining the table schema
+2025-01-27 13:04:11,225:INFO:Creating the table in the database
+2025-01-27 13:04:11,317:INFO:Loading the dataframe into the database
+2025-01-27 13:04:11,514:INFO:Process completed successfully
+2025-01-27 13:05:56,235:INFO:Fetching the webpage
+2025-01-27 13:05:57,936:INFO:Extracting tables from the webpage
+2025-01-27 13:05:58,074:INFO:Number of tables extracted: 3
+2025-01-27 13:05:58,074:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:05:58,075:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:05:58,075:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:05:58,075:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:05:58,077:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:05:58,079:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:05:58,079:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:05:58,084:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:05:58,203:INFO:Defining the table schema
+2025-01-27 13:05:58,204:INFO:Creating the table in the database
+2025-01-27 13:05:58,307:INFO:Loading the dataframe into the database
+2025-01-27 13:05:58,495:INFO:Process completed successfully
+2025-01-27 13:06:02,886:INFO:Fetching the webpage
+2025-01-27 13:06:08,058:INFO:Extracting tables from the webpage
+2025-01-27 13:06:08,196:INFO:Number of tables extracted: 3
+2025-01-27 13:06:08,196:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:06:08,198:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:06:08,198:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:06:08,199:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:06:08,200:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:06:08,203:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:06:08,203:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:06:08,209:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:06:08,317:INFO:Defining the table schema
+2025-01-27 13:06:08,318:INFO:Creating the table in the database
+2025-01-27 13:06:08,408:INFO:Loading the dataframe into the database
+2025-01-27 13:06:08,569:INFO:Process completed successfully
+2025-01-27 13:16:33,110:INFO:Fetching the webpage
+2025-01-27 13:16:36,903:INFO:Extracting tables from the webpage
+2025-01-27 13:16:37,045:INFO:Number of tables extracted: 3
+2025-01-27 13:16:37,045:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:16:37,047:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:16:37,047:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:16:37,048:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:16:37,049:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:16:37,052:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:16:37,053:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:16:37,058:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:16:37,271:INFO:Database does not exist, creating a new one
+2025-01-27 13:16:38,503:INFO:Defining the table schema
+2025-01-27 13:16:38,504:INFO:Creating the table in the database
+2025-01-27 13:16:38,735:INFO:Loading the dataframe into the database
+2025-01-27 13:16:38,954:INFO:Process completed successfully
+2025-01-27 13:17:20,417:INFO:Fetching the webpage
+2025-01-27 13:17:21,822:INFO:Extracting tables from the webpage
+2025-01-27 13:17:21,932:INFO:Number of tables extracted: 3
+2025-01-27 13:17:21,932:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:17:21,934:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:17:21,934:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:17:21,935:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:17:21,937:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:17:21,941:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:17:21,941:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:17:21,947:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:17:22,052:INFO:Defining the table schema
+2025-01-27 13:17:22,053:INFO:Creating the table in the database
+2025-01-27 13:17:22,149:INFO:Loading the dataframe into the database
+2025-01-27 13:17:22,337:INFO:Process completed successfully
+2025-01-27 13:18:47,004:INFO:Fetching the webpage
+2025-01-27 13:18:48,777:INFO:Extracting tables from the webpage
+2025-01-27 13:18:48,899:INFO:Number of tables extracted: 3
+2025-01-27 13:18:48,899:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:18:48,901:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:18:48,901:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:18:48,902:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:18:48,905:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:18:48,910:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:18:48,910:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:18:48,916:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:18:49,026:INFO:Defining the table schema
+2025-01-27 13:18:49,027:INFO:Creating the table in the database
+2025-01-27 13:18:49,126:INFO:Loading the dataframe into the database
+2025-01-27 13:18:49,322:INFO:Process completed successfully
+2025-01-27 13:26:51,918:INFO:Fetching the webpage
+2025-01-27 13:26:56,500:INFO:Fetching the webpage
+2025-01-27 13:28:29,296:INFO:Fetching the webpage
+2025-01-27 13:28:31,733:INFO:Extracting tables from the webpage
+2025-01-27 13:28:31,854:INFO:Number of tables extracted: 3
+2025-01-27 13:28:31,854:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:28:31,855:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:28:31,855:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:28:31,855:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:28:31,856:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:28:31,859:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:28:31,859:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:28:31,864:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:28:31,978:INFO:Defining the table schema
+2025-01-27 13:28:31,979:INFO:Creating the table in the database
+2025-01-27 13:28:32,098:INFO:Loading the dataframe into the database
+2025-01-27 13:28:32,310:INFO:Process completed successfully
+2025-01-27 13:30:08,844:INFO:Fetching the webpage
+2025-01-27 13:30:10,816:INFO:Extracting tables from the webpage
+2025-01-27 13:30:10,972:INFO:Number of tables extracted: 3
+2025-01-27 13:30:10,973:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 13:30:10,974:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 13:30:10,974:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 13:30:10,975:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 13:30:10,980:INFO:Merging the two tables on the 'Number' column
+2025-01-27 13:30:10,986:INFO:Merged dataframe shape: 17 rows, 4 columns
+2025-01-27 13:30:10,986:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 13:30:10,991:INFO:Connecting to the PostgreSQL database
+2025-01-27 13:30:11,129:INFO:Defining the table schema
+2025-01-27 13:30:11,130:INFO:Creating the table in the database
+2025-01-27 13:30:11,246:INFO:Loading the dataframe into the database
+2025-01-27 13:30:11,437:INFO:Process completed successfully
+2025-01-27 14:13:27,809:INFO:Fetching the webpage
+2025-01-27 14:14:48,826:INFO:Fetching the webpage
+2025-01-27 14:14:51,585:INFO:Extracting tables from the webpage
+2025-01-27 14:15:45,850:INFO:Fetching the webpage
+2025-01-27 14:15:47,385:INFO:Extracting tables from the webpage
+2025-01-27 14:15:47,560:INFO:Number of tables extracted: 3
+2025-01-27 14:15:47,560:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 14:15:47,562:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 14:15:47,562:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 14:15:47,564:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 14:15:47,567:INFO:Merging the two tables on the 'Number' column
+2025-01-27 14:15:47,573:INFO:Merged dataframe shape: 17 rows,4 columns
+2025-01-27 14:15:47,573:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 14:15:47,581:INFO:Connecting to the PostgreSQL database
+2025-01-27 14:16:34,324:INFO:Fetching the webpage
+2025-01-27 14:16:36,440:INFO:Extracting tables from the webpage
+2025-01-27 14:16:36,614:INFO:Number of tables extracted: 3
+2025-01-27 14:16:36,614:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 14:16:36,616:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 14:16:36,617:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 14:16:36,618:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 14:16:36,620:INFO:Merging the two tables on the 'Number' column
+2025-01-27 14:16:36,626:INFO:Merged dataframe shape: 17 rows,4 columns
+2025-01-27 14:16:36,627:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 14:16:36,635:INFO:Connecting to the PostgreSQL database
+2025-01-27 14:16:36,795:INFO:Defining the table schema
+2025-01-27 14:16:36,796:INFO:Creating the table in the database
+2025-01-27 14:16:36,926:INFO:Loading the dataframe into the database
+2025-01-27 14:16:37,197:INFO:Process completed successfully
+2025-01-27 14:18:05,560:INFO:Fetching the webpage
+2025-01-27 14:18:44,248:INFO:Extracting tables from the webpage
+2025-01-27 14:18:44,397:INFO:Number of tables extracted: 3
+2025-01-27 14:18:44,398:INFO:Extracting relevant columns and first 17 rows from the first table
+2025-01-27 14:18:44,400:INFO:Table 1 (first 17 rows): 17 rows, 3 columns
+2025-01-27 14:18:44,400:INFO:Extracting relevant columns and first 17 rows from the second table
+2025-01-27 14:18:44,401:INFO:Table 2 (first 17 rows): 17 rows, 1 columns
+2025-01-27 14:18:44,404:INFO:Merging the two tables on the 'Number' column
+2025-01-27 14:18:44,410:INFO:Merged dataframe shape: 17 rows,4 columns
+2025-01-27 14:18:44,410:INFO:Saving the resulting dataframe to a CSV file
+2025-01-27 14:18:44,420:INFO:Connecting to the PostgreSQL database
+2025-01-27 14:18:44,654:INFO:Database does not exist, creating a new one
+2025-01-27 14:18:45,832:INFO:Defining the table schema
+2025-01-27 14:18:45,833:INFO:Creating the table in the database
+2025-01-27 14:18:46,179:INFO:Loading the dataframe into the database
+2025-01-27 14:18:46,425:INFO:Process completed successfully
